@@ -13,7 +13,7 @@ interface SearchDataProp {
 export const SearchBox: React.FC<SearchDataProp> = ({ onSearch }) => {
   
   const { t } = useTranslation();
-  const [queriedCity, setQueriedCity] = useState<string>('Berlin');
+  const [queriedCity, setQueriedCity] = useState<string>('Muharraq');
 
   const getWeatherData = () => {
     const key = '83c8682ee873400e849152615220806';
